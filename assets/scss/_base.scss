@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Itim&display=swap");
+
+body {
+  min-width: 1920px; // this is a crime....
+  max-width: 1920px; // this is also a crime....
+
+  color: var(--text);
+  background: var(--background);
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+#application {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  min-width: 35rem;
+}

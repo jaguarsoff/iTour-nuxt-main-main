@@ -1,0 +1,21 @@
+// Section slide-in animation
+
+.visible {
+  opacity: 1;
+  transform: initial;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-7.5%);
+}
+
+.section-transition {
+  transition: all 700ms ease-in;
+}
+
+// Current preview project styling
+
+.higlighted-preview {
+  transform: scale(1.05);
+}

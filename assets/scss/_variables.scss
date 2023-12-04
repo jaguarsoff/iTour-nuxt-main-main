@@ -1,0 +1,36 @@
+// ? -- Variables
+:root {
+  // ? ----- /* Colors */
+  --background-green: #14dca0;
+  --background-green-light: #48deb1;
+  --background-blue: #1ea6eb;
+  --background-blue-light: #7ecdf5;
+  --background-red: #c73939;
+
+  --text: #fff;
+
+  // ? ----- /* Fonts */
+  // ? Font Sizes
+  --hero-header: 6.2rem;
+  --header-link: 3rem;
+  --mini-header: 1.4rem;
+  --header-primary: 3rem;
+  --header-hero: 3.4rem;
+  --paragraph-regular: 1.6rem;
+  --paragraph-small: 1.4rem;
+
+  // ? Line Heights
+  --line-height-regular: 1.4;
+
+  // ? Font Weights
+  --font-weight-boldest: 800;
+  --font-weight-bold: 700;
+  --font-weight-semi: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  /* Box Shadow */
+  --shadow-semi-focused: 0 4px 8px hsla(0, 0%, 0%, 0.3);
+  --shadow-focused: 0 8px 12px hsla(0, 0%, 0%, 0.5);
+  --shadow-common: 0 2px 6px hsla(0, 0%, 0%, 0.1);
+}
